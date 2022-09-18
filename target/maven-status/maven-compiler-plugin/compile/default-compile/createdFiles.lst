@@ -1,0 +1,10 @@
+ProjetoClientes\Model\entity\Servico.class
+ProjetoClientes\Model\entity\Cliente.class
+ProjetoClientes\config\InternacionalizacaoConfig.class
+ProjetoClientes\Model\repository\Clienterepository.class
+ProjetoClientes\rest\exception\ApiErros.class
+ProjetoClientes\ClienteAplication.class
+ProjetoClientes\Model\repository\ServiçoRepository.class
+ProjetoClientes\rest\ClienteController.class
+ProjetoClientes\Model\entity\Cliente$ClienteBuilder.class
+ProjetoClientes\rest\ApplicationControlerAdvice.class
