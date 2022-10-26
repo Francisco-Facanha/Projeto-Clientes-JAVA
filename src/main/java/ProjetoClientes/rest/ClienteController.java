@@ -11,14 +11,21 @@ import org.springframework.web.server.ResponseStatusException;
 
 import javax.validation.Valid;
 
+import java.util.List;
+
 import static org.springframework.data.jpa.domain.AbstractPersistable_.id;
 
 @RestController
 @RequestMapping("/api/clientes")
-@CrossOrigin("*")
+@CrossOrigin("http://localhost:4200")
 public class ClienteController {
 
     private final Clienterepository repository;
+
+    @GetMapping
+    public List<Cliente>obterTodos(){
+        return repository.findAll();
+    }
 
     @Autowired
     public ClienteController(Clienterepository repository) {
