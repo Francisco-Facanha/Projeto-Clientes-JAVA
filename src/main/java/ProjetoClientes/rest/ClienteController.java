@@ -17,7 +17,7 @@ import static org.springframework.data.jpa.domain.AbstractPersistable_.id;
 
 @RestController
 @RequestMapping("/api/clientes")
-@CrossOrigin("http://localhost:4200")
+
 public class ClienteController {
 
     private final Clienterepository repository;
